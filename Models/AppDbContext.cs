@@ -9,4 +9,10 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Item> Item { get; set; } = null!;
+
+    public DbSet<Member> Member { get; set; } = null!;
+
+    public DbSet<MemberDonation> MemberDonation { get; set; } = null!;
+
+    public DbSet<MemberWallet> MemberWallet { get; set; } = null!;
 }
