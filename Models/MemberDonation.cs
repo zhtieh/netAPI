@@ -7,4 +7,5 @@ public class MemberDonation
     public int EventId { get; set; }
     public Decimal Amount { get; set; }
     public DateTime DonationDate { get; set; }
+    public Decimal AmountAfterDeduction { get; set; }
 }
